@@ -14,7 +14,7 @@ namespace ApiRestCore.Model {
 
         public string Nombre { get; set; }
         
-        // "0" = Por Revisar, "1" = Revisado.
+        // "0" = Por Revisión, "1" = Revisado.
         public string Estado { get; set; }
 
         public string HoraDeRevision { get; set; }

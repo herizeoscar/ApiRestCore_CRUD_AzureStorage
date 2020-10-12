@@ -21,7 +21,6 @@ namespace ApiRestCore.Data {
             CloudStorageAccount account = CloudStorageAccount.Parse(connectionString);
             CloudTableClient tableClient = account.CreateCloudTableClient(new TableClientConfiguration());
             table = tableClient.GetTableReference(TableName);
-            //table.DeleteIfExists();
             table.CreateIfNotExists();
         }
 
