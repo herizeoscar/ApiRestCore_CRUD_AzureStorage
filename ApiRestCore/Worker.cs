@@ -24,7 +24,7 @@ namespace ApiRestCore {
                     producto.HoraDeRevision = DateTime.Now.ToString("HH:mm");
                     _repository.InsertOrUpdateProducto(producto);
                 }
-                await Task.Delay(10000);
+                await Task.Delay(100000);
             }
         }
     }
