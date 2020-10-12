@@ -12,9 +12,8 @@
 
 
 ## ***`- GET`***
-*En Body:*
 
-Para ver primeros registros se indica la cantidad de registros por pagina y en el `ContinuationToken` se establece `null`:
+Para ver los primeros registros, se indican como parametros en body, junto a la petición GET, la cantidad de registros por pagina y en el `ContinuationToken` se establece `null`:
 
 *Ejemplo:*
 
@@ -94,7 +93,7 @@ Para ver primeros registros se indica la cantidad de registros por pagina y en e
 
 En la respuesta podemos ver el valor correspondiente a ContinuationToken para ver la siguiente pagina de registros con la cantidad de registros por pagina utilizada. 
 
-Para avanzar a la siguiente pagina solo hace falta realizar la petición get indicando ahora el ContinuationToken
+Para avanzar a la siguiente pagina solo hace falta realizar la petición GET indicando ahora el ContinuationToken
 
 *Ejemplo:*
 ```json
